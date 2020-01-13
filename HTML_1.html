@@ -11,8 +11,81 @@
         <title>Project 1</title>
     </head>
     <body>
+        <h1 class="text-center mb-5 mt-2 text-dark">JS Project 1</h1>
+
+        <div class="container bg-info pt-2">
+
+            <!-- Using Switch Statements |  -->
+            <div class="row">
+
+                <!-- Pick your favorite color -->
+                <div class="col-3">
+                    <h4 class="m-1 text-dark">What is your favorite color?</h4>
+                    <ul class="text-light">
+                        <li>Red</li>
+                        <li>Yellow</li>
+                        <li>Green</li>
+                        <li>Blue</li>
+                        <li>Pink</li>
+                        <li>Purple</li>
+                    </ul>
+                    <h4 class="m-1 text-dark">Enter your color here</h4>
+
+                    <div class="row align-items-center">
+
+                        <!-- Text Box -->
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="color" id="color_input">
+                        </div>
+
+                        <!-- Button -->
+                        <div class="col-6 m-0 p-0">
+                            <button type="button" class="btn btn-primary btn-block my-1" onclick="color_function()">Submit</button>
+                        </div>
+                    </div>
+                    
+
+                    <p class="text-light ml-3" id="output">test</p>
+                </div>
 
 
+
+                <!-- getElementsByClassName() method-->
+                <div class="col-3">
+                    <h3 class="m-1 text-dark click">This text will change</h3>
+                    <h5 class="m-1 text-dark click">This text will not change</h5>
+                    <button type="button" class="btn btn-primary btn-block my-1" onclick="Hello_World_Function()">Click Me!</button>
+                </div>
+
+
+
+                <div class="col-6">
+                    <canvas id="myCanvas" width="500" height="400" style="border:4px solid black;"></canvas>
+                    <div class="row mb-2">
+                        <div class="col-5">
+                            <button type="button" class="btn btn-primary btn-block my-1" onclick="drawCircle()">Draw Circle</button>
+                        </div>
+                        <div class="col-5">
+                            <button type="button" class="btn btn-primary btn-block my-1" onclick="drawSquare()">Draw Square</button>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-5">
+                            <button type="button" class="btn btn-primary btn-block my-1" onclick="drawLinearGradient()">Draw Gradient</button>
+                        </div>
+                        <div class="col-5">
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
 
         <script src="JavaScript/JavaScript_1.js"></script>
 
