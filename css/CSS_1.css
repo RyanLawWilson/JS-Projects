@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(95, 0, 0);
+    width: 75%;
+    margin: auto;
+    display: block
+
+    /* Makes it so that elements can't float to the right or left of this element. */
+}
+
+.row {
+    background-color: rgb(95, 73, 0);
+    margin: auto;
+    display: flex;
+}
+
+.col {
+    background-color: rgb(51, 95, 0);
+    margin: auto;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+
+input {
+    border-radius: 2px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+input[type=submit]:hover {
+    background-color: tomato;
+    border: 3px inset rgb(56, 53, 53);
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
