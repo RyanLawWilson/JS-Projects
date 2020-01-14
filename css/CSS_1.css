@@ -10,7 +10,8 @@ body {
     background-color: rgb(95, 0, 0);
     width: 75%;
     margin: auto;
-    display: block
+    display: block;
+    
 
     /* Makes it so that elements can't float to the right or left of this element. */
 }
@@ -47,8 +48,22 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+.text-red {
+    color: rgb(187, 0, 0);
+    font-weight: 800;
+}
+
+p, label {
+    color: white;
+}
+
+label {
+    text-shadow: 1px 1px black, -1px -1px black;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 10px;
 }

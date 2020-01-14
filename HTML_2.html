@@ -13,26 +13,30 @@
             <h2>This is in the Container</h2>
             <div class="row">
                 <div class="col">
-                    <h4>Contact Form</h4>
-                    <label>First Name</label><br>
-                    <input type="text" placeholder="First Name">
-                    <br><br>
-                    <label>Last Name</label><br>
-                    <input type="text" placeholder="Last Name">
-                    <br><br>
-                    <label>Email</label><br>
-                    <input type="text" placeholder="Email">
-                    <br><br>
-                    <input type="submit">
+                    <h3>Contact Form</h3>
+                    <form method="post" onsubmit="return validateForm()" name="contactForm">
+                        <label>First Name<span class="text-red">*</span></label><br>
+                        <input type="text" placeholder="First Name" name="fname" id="fName">
+                        <br><br>
+                        <label>Last Name<span class="text-red">*</span></label><br>
+                        <input type="text" placeholder="Last Name" name="lName" id="lName">
+                        <br><br>
+                        <label>Email</label><br>
+                        <input type="text" placeholder="Email" name="email" id="email">
+                        <br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <p id="testText" class="text-center">asd</p>
                 </div>
                 <div class="col">
-                    <h4>This is in the Column</h4>
+                    <h3>This is in the Column</h3>
                 </div>
                 <div class="col">
-                    <h4>This is in the Column</h4>
+                    <h3>This is in the Column</h3>
                 </div>
             </div>
         </div>
+        
 
 		<script src="JavaScript/JavaScript_2.js"></script>
 	</body>
