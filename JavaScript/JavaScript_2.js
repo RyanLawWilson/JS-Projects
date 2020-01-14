@@ -20,15 +20,4 @@ function validateForm() {
         alert("You must have a valid email!");
         return false;
     }
-
-
-
-    //OR, the W3schools way
-
-
-
-    //Retruns a 2-dimensional array of all of the forms on the page.
-    var firstName2 = document.forms["contactForm"]["fname"].value;
-    var lastName2 = document.forms["contactForm"]["fname"].value;
-    var email2 = document.forms["contactForm"]["fname"].value;
 }
